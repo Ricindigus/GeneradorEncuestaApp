@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:title="Marco de Trabajo"
+            android:id="@+id/opcion_1"
+            android:checked="false"
+            />
+        <item android:title="Ir al capítulo"
+            android:id="@+id/opcion_2"
+            android:checked="false"
+            />
+        <item android:title="Menu Vivienda"
+            android:id="@+id/opcion_3"
+            android:checked="false"
+            />
+        <item android:title="Etc"
+            android:id="@+id/opcion_4"
+            android:checked="false"
+            />
+    </group>
+</menu>

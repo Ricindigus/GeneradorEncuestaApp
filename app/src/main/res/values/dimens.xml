@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="pregunta_margin">10dp</dimen>
+    <dimen name="layout_margin">15dp</dimen>
+    <dimen name="textoLarge">25dp</dimen>
+    <dimen name="textoMedium">20dp</dimen>
+    <dimen name="textoSmall">15dp</dimen>
+    <dimen name="textoVerySmall">15dp</dimen>
+    <dimen name="subpregunta_margin">5dp</dimen>
+    <dimen name="fab_margin">10dp</dimen>
+</resources>

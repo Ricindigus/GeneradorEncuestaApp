@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="pe.gob.inei.generadorencuestaapp.activities.ViviendaActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/layout_margin">
+        <android.support.v7.widget.CardView
+            android:layout_margin="@dimen/layout_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:background="@drawable/transparencia"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="VIVIENDA 001"
+                    android:textSize="@dimen/textoMedium"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Informacion campo1: Id vivienda"
+                    android:textSize="@dimen/textoMedium"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Informacion campo2: Direccion"
+                    android:textSize="@dimen/textoMedium"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Informacion campo3: etc"
+                    android:textSize="@dimen/textoMedium"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <LinearLayout
+            android:layout_marginRight="@dimen/layout_margin"
+            android:layout_marginLeft="@dimen/layout_margin"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <Button
+                android:padding="15dp"
+                android:layout_margin="@dimen/layout_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="control de visitas"
+                android:theme="@style/RaisedButtonDark2"
+                android:onClick="irAEncuesta"/>
+            <Button
+                android:padding="15dp"
+                android:layout_margin="@dimen/layout_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="iniciar encuesta"
+                android:theme="@style/RaisedButtonDark2"
+                android:onClick="irAEncuesta"/>
+            <Button
+                android:padding="15dp"
+                android:layout_margin="@dimen/layout_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="captura gps"
+                android:theme="@style/RaisedButtonDark2"
+                android:onClick="irAEncuesta"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
