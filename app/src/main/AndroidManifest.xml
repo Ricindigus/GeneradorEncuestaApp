@@ -19,7 +19,12 @@
         <activity android:name=".activities.LoginActivity" />
         <activity android:name=".activities.MarcoActivity" />
         <activity android:name=".activities.ViviendaActivity" />
-        <activity android:name=".activities.EncuestaActivity"></activity>
+        <activity android:name=".activities.EncuestaActivity" />
+        <activity android:name=".activities.ControlVisitasActivity"
+            android:parentActivityName=".activities.ViviendaActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.ViviendaActivity"/>
+        </activity>
     </application>
 
 </manifest>

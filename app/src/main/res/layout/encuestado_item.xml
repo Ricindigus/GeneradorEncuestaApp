@@ -40,8 +40,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"/>
         <TextView
+            android:textColor="@color/colorPrimary"
             android:padding="3dp"
-            android:textStyle="bold"
             android:textSize="@dimen/textoSmall"
             android:id="@+id/encuestado_campo3"
             android:text="campo_informacion_3"

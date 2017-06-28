@@ -19,4 +19,9 @@ public class ViviendaActivity extends AppCompatActivity {
         Intent intent = new Intent(this, EncuestaActivity.class);
         startActivity(intent);
     }
+
+    public void irAControlVisitas(View view){
+        Intent intent = new Intent(this, ControlVisitasActivity.class);
+        startActivity(intent);
+    }
 }
